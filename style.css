@@ -1,0 +1,55 @@
+/* Estilo geral da navbar */
+.navbar {
+  padding: 0.5rem 1rem; /* Ajusta o padding da navbar */
+}
+
+/* Alinhar o logo à esquerda */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+/* Ajustar o tamanho do logo se necessário */
+.navbar-brand img {
+  max-width: 100%;
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para a lista de navegação */
+.navbar-nav {
+  margin-left: auto; /* Alinha a lista de navegação à direita */
+}
+
+/* Estilo dos itens de navegação */
+.nav-item {
+  margin-left: 1rem; /* Espaçamento entre itens */
+}
+
+/* Estilo do link de navegação */
+.nav-link {
+  color: #333; /* Cor padrão do texto */
+  font-size: 1rem; /* Tamanho da fonte */
+  padding: 0.5rem 1rem; /* Padding para links */
+  transition: color 0.3s ease; /* Transição suave na cor ao passar o mouse */
+}
+
+/* Estilo quando o link está ativo */
+.nav-item.active .nav-link {
+  font-weight: bold; /* Destaca o link ativo */
+  color: #007bff; /* Cor do link ativo */
+}
+
+/* Estilo para links desativados */
+.nav-link.disabled {
+  color: #6c757d; /* Cor dos links desativados */
+}
+
+/* Estilo do botão de alternância (toggle) */
+.navbar-toggler {
+  border: none; /* Remove a borda do botão */
+}
+
+/* Estilo do ícone do botão de alternância */
+.navbar-toggler-icon {
+  background-image: url('path/to/your/icon.png'); /* Substitua pelo caminho do seu ícone */
+}
