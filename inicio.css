@@ -1,0 +1,4 @@
+.hero {
+  height: cal(100vh - 70px);
+  background: center / cover no-repeat url("gwv_motor_sport.png");
+}
