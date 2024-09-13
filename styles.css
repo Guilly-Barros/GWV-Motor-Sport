@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+/* Cabeçalho */
+.menu{
+  background-color: gray;
+  padding-inline: 16px;
+  }
+
+/* Estilo para a barra de navegação */
+.navbar {
+  max-width: 1280px;
+  height: auto;
+  margin-inline: auto;
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center;
+  background-color:#A2A3A4; /*Coloração da NAVBAR*/
+  padding: 0.6rem 0.9rem; /* Ajusta o padding da navbar */
+}
+
+.navbar-nav a:hover {
+
+color: whitesmoke;
+text-decoration: underline;
+text-underline-offset: 5px;
+}
+
+/* Ajustar a largura máxima da navbar para garantir que ela não ocupe a tela inteira */
+.navbar-collapse {
+  display: flex;
+  justify-content: center; /* Centraliza os itens da navbar */
+  width: 100%; /*Garantir que a navbar ocupasse toda a largura disponível */
+}
+
+/* Ajuste a largura máxima da navbar se necessário */
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Centraliza os itens de navegação */
+}
+
+/* Ajusta o espaçamento entre os itens */
+.nav-item {
+  margin-left: 1rem; /* Espaçamento entre itens */
+  margin-right: 1rem; /* Espaçamento entre itens */
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Centraliza o logo dentro da navbar */
+.navbar-brand {
+  margin-right: auto; /* Garante que o logo esteja à esquerda */
+  margin-left: auto;  /* Garante que o logo esteja à direita */
+}
+
+/* NavBar Canto Direito */
+
+.nav {
+  display: flex;
+  justify-content: flex-end; /* Alinha os itens no final (direita) */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-acess {
+  margin-left: 25px; /* Espaçamento entre os itens */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000; /* Cor do texto */
+}
+
+.nav-link.disabled {
+  color: #000; /* Cor para o link desabilitado */
+}
