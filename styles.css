@@ -27,8 +27,7 @@ body {
 }
 
 .navbar-nav a:hover {
-/* color: rgba(245, 245, 245, 0.726); */
-color: white;
+color: rgba(245, 245, 245, 0.726); 
 text-decoration: underline;
 text-underline-offset: 5px;
 }
