@@ -5,10 +5,12 @@
 }
 
 body {
-  background-image: url(fundo.png);
+  background-image: url(fundo1.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 /* Estilo para a barra de navegação */
 .navbar {
@@ -48,21 +50,26 @@ text-underline-offset: 5px;
 
 /* Ajusta o espaçamento entre os itens */
 .nav-item {
-  margin-left: 1rem; /* Espaçamento entre itens */
-  margin-right: 1rem; /* Espaçamento entre itens */
-  list-style: none;
-  font-weight: bold;
-  font-size: 20px;
+  margin-left: 2rem; /* Espaçamento entre itens */
+  margin-right: 2rem; /* Espaçamento entre itens */
+  font-family: "Concert One",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  text-align:center;
 }
 
-/* Centraliza o logo dentro da navbar */
-.navbar-brand {
-  margin-right: auto; /* Garante que o logo esteja à esquerda */
-  margin-left: auto;  /* Garante que o logo esteja à direita */
+.nav-acess {
+  margin-left: 2rem; /* Espaçamento entre itens */
+  margin-right: 2rem; /* Espaçamento entre itens */
+  font-family: "Concert One",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  text-align:center;
 }
 
 /* NavBar Canto Direito */
-
 .nav {
   display: flex;
   justify-content: flex-end; /* Alinha os itens no final (direita) */
@@ -73,31 +80,17 @@ text-underline-offset: 5px;
   font-size: 20px;
 }
 
-.nav-acess {
-  margin-left: 25px; /* Espaçamento entre os itens */
-}
 
 .left-items, .right-items {
-  
+  text-decoration: none;
   display: flex;
   gap: 20px;
   color: white;
-  text-decoration: none;
 }
 
 .logo img {
-  height: 150px;
-  width: 150px;
-}
-
-.apresentação h1, h2{
-  color: rgb(165, 0, 0);
-  font-family: "Concert One",sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 35px;
-  text-align:justify;
-
+  height: 120px;
+  width: 350px;
 }
 
 .container{
@@ -131,10 +124,13 @@ h3 {
 
 /* Configurações Internas das Letras na Caixa */
 .input-group label {
+  font-family: "Concert One",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
   display: block;
   margin-bottom: 5px;
-  font-weight: bold;
-  color: white;
+  color: black;
 }
 
 /* Configuração das Caixas de Texto */
