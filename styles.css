@@ -14,6 +14,12 @@ body {
   padding-inline: 16px;
   }
 
+body {
+  background-image: url(mustang_red.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Estilo para a barra de navegação */
 .navbar {
   max-width: auto;
