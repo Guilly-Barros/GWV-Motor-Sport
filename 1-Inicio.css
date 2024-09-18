@@ -16,7 +16,7 @@ body {
 .navbar {
   background: transparent;
   backdrop-filter: bluer(10px);
-  border: 1px solid white;
+  /* border: 0px solid black; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,6 +27,7 @@ body {
 color: rgba(245, 245, 245, 0.726); 
 text-decoration: underline;
 text-underline-offset: 5px;
+
 }
 
 .nav a:hover {
@@ -50,13 +51,9 @@ text-underline-offset: 5px;
 
 /* Ajusta o espaçamento entre os itens */
 .nav-item {
+  list-style-type: none;
   margin-left: 2rem; /* Espaçamento entre itens */
   margin-right: 2rem; /* Espaçamento entre itens */
-  font-family: "Concert One",sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 35px;
-  text-align:center;
 }
 
 .nav-acess {
@@ -85,7 +82,13 @@ text-underline-offset: 5px;
   text-decoration: none;
   display: flex;
   gap: 20px;
-  color: white;
+  color: black;
+  font-family: "Concert One",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-align:center;
+  
 }
 
 .logo img {
