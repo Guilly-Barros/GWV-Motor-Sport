@@ -12,6 +12,9 @@ body {
 
 /* Estilo para a barra de navegação */
 .navbar {
+  background: transparent;
+  backdrop-filter: bluer(10px);
+  border: 1px solid white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -105,17 +108,20 @@ text-underline-offset: 5px;
 
 /* Modificações da Caixa */
 .form-box {
-  background-color: #A2A3A4;
+  background-color: transparent;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Texto do Cadastro */
 h3 {
-  text-align: center;
-  margin-bottom: 20px;
-  color: rgb(85, 85, 85);
+  font-family: "Concert One",sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align:center;
+  color: darkred;
 }
 
 /* Espaço Entre as Frases */
@@ -128,14 +134,15 @@ h3 {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  color: white;
 }
 
 /* Configuração das Caixas de Texto */
 .input-group input {
   width: 100%;
   padding: 10px;
-  background-color: purple;
-  color: white;
+  background-color: white;
+  color: black;
   border: none;
   border-radius: 5px;
   font-size: 16px;
