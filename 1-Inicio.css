@@ -3,33 +3,19 @@
   padding: 0;
   font-family: New Century Schoolbook, TeX Gyre Schola, serif;
 }
-body {
-  background: url('1.png');
-  background-size: cover;
-}
-
-/* Cabeçalho */
-.menu{
-  background-color: gray;
-  padding-inline: 16px;
-  }
 
 body {
-  background-image: url(mustang_red.png);
+  background-image: url(fundo.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* Estilo para a barra de navegação */
 .navbar {
-  max-width: auto;
-  height: auto;
-  margin-inline: auto;
   display: flex;
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: space-between;
   align-items: center;
-  background-color:#A2A3A4; /*Coloração da NAVBAR*/
-  padding: 0.6rem 0.9rem; /* Ajusta o padding da navbar */
+  padding: 20px;
 }
 
 .navbar-nav a:hover {
@@ -38,6 +24,12 @@ text-decoration: underline;
 text-underline-offset: 5px;
 }
 
+.nav a:hover {
+  color: rgba(245, 245, 245, 0.726); 
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  }
+  
 /* Ajustar a largura máxima da navbar para garantir que ela não ocupe a tela inteira */
 .navbar-collapse {
   display: flex;
@@ -82,13 +74,17 @@ text-underline-offset: 5px;
   margin-left: 25px; /* Espaçamento entre os itens */
 }
 
-.nav-link {
+.left-items, .right-items {
+  
+  display: flex;
+  gap: 20px;
+  color: white;
   text-decoration: none;
-  color: #000000; /* Cor do texto */
 }
 
-.nav-link.disabled {
-  color: #000000; /* Cor para o link desabilitado */
+.logo img {
+  height: 150px;
+  width: 150px;
 }
 
 .apresentação h1, h2{
