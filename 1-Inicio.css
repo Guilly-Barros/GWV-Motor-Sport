@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -117,7 +118,7 @@ h3 {
   font-style: normal;
   font-size: 50px;
   text-align:center;
-  color: darkred;
+  color: black;
 }
 
 /* Espaço Entre as Frases */
