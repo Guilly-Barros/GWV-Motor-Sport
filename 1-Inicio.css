@@ -6,7 +6,8 @@
 }
 
 body {
-  background-image: url(fundo1.png);
+  background-color: gray;
+  /* background-image: url(fundo1.png); */
   background-repeat: no-repeat;
   background-size: cover;
 }
