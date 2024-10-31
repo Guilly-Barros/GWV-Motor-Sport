@@ -53,124 +53,246 @@
     </header>
                                                                         <!-- Final da NavBar -->
 
-    <title> Aba Veículos</title>
-        <div class="containerr">
-            <h1 class="title">Veículos de Luxo</h1>
+    <style>
+        /* Paleta de Cores */
+        :root {
+            --primary-bg: #333333; /* Fundo cinza escuro */
+            --card-bg: #1a1a1a; /* Fundo do cartão */
+            --text-color: #ffffff; /* Cor do texto */
+            --accent-color: #e60000; /* Cor de destaque */
+        }
 
-                        <!-- Primeira Linha -->
-                <div class="row">
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                </div>
+        /* Estilo Global */
+        body {
+            font-family: 'Roboto', sans-serif; /* Fonte padrão */
+            background-color: var(--primary-bg);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza horizontalmente */
+        }
 
-                        <!-- Segunda Linha -->
-                <div class="row">
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                </div>
-                        <!-- Segunda Linha -->
-                <div class="row">
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                </div>
+        .menu {
+            background-color: #f8f9fa; /* Cor de fundo da navbar */
+            padding: 10px;
+        }
 
-                        <!-- Terceira Linha -->
-                <div class="row">
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-               </div>
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-                        <!-- Quarta Linha -->
-                <div class="row">
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                </div>
+        .navbar-nav {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
 
-                        <!-- Quinta Linha -->
-                <div class="row">
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
-                    <div class="card">
-                        <img src="mustang_red.png" alt="Mustang Vermelho Areia">
-                        <h3>Mustang Vermelho</h3>
-                        <p>V12, 740 cv 0-100 km/h em 2.8s</p>
-                    </div>
+        .nav-item a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav-item a:hover {
+            color: var(--accent-color);
+        }
+
+        .title {
+            text-align: center;
+            margin: 30px 0;
+            color: var(--accent-color);
+            font-size: 2.5em;
+            font-family: 'Concert One', cursive; /* Usando a fonte para o título */
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Grid de Veículos */
+        .vehicle-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-items: center; /* Centraliza os itens do grid */
+        }
+
+        /* Estilo do Cartão */
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+            width: 220px; /* Largura fixa para os cartões */
+            height: 300px; /* Altura fixa para os cartões */
+            display: flex;
+            flex-direction: column; /* Alinha o conteúdo verticalmente */
+            justify-content: space-between; /* Espaça o conteúdo no cartão */
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        .card img {
+            width: 100%; /* Largura do cartão */
+            height: 150px; /* Altura fixa da imagem */
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover img {
+            transform: scale(1.1);
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-title {
+            font-size: 1.2em;
+            color: var(--accent-color);
+            margin-bottom: 10px;
+            font-family: 'Concert One', cursive; /* Usando a fonte para o título dos carros */
+        }
+
+        .card-details {
+            font-size: 0.9em;
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="title">Veículos de Luxo</h1>
+        
+        <div class="vehicle-grid">
+            <!-- Primeira Linha -->
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqt2SNosb-qSzMvz9GuTSJcdP_CYbJ4cviZA&s" alt="Lamborghini Aventador">
+                <div class="card-content">
+                    <h3 class="card-title">Lamborghini Aventador</h3>
+                    <p class="card-details">V12, 740 cv, 0-100 km/h em 2.9s</p>
                 </div>
+            </div>
+            <div class="card">
+                <img src="https://img2.icarros.com/dbimg/imgadicionalnoticia/4/74799_1" alt="Ferrari 488 GTB">
+                <div class="card-content">
+                    <h3 class="card-title">Ferrari 488 GTB</h3>
+                    <p class="card-details">V8, 670 cv, 0-100 km/h em 3.0s</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWdW_6QOfw_ud5bdv2lApRHvhA8TbSN34Qg&s" alt="Porsche 911 Turbo S">
+                <div class="card-content">
+                    <h3 class="card-title">Porsche 911 Turbo S</h3>
+                    <p class="card-details">Flat-6, 640 cv, 0-100 km/h em 2.7s</p>
+                </div>
+            </div>
+
+            <!-- Segunda Linha -->
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfElo0ElaOqO4tBYFof9o1-pUXS5BG-zLXRw&s" alt="Rolls-Royce Phantom">
+                <div class="card-content">
+                    <h3 class="card-title">Rolls-Royce Phantom</h3>
+                    <p class="card-details">V12, 563 cv, luxuoso e refinado</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://soveiculos.com.br/wp-content/uploads/2024/06/Bentley-Continental-2025.jpg" alt="Bentley Continental GT">
+                <div class="card-content">
+                    <h3 class="card-title">Bentley Continental GT</h3>
+                    <p class="card-details">W12, 626 cv, conforto e potência</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://revistacarro.com.br/wp-content/uploads/2018/03/aston-martin-db11-1-capa.jpg" alt="Aston Martin DB11">
+                <div class="card-content">
+                    <h3 class="card-title">Aston Martin DB11</h3>
+                    <p class="card-details">V8, 503 cv, estilo e desempenho</p>
+                </div>
+            </div>
+
+            <!-- Terceira Linha -->
+            <div class="card">
+                <img src="https://mclaren.scene7.com/is/image/mclaren/720S-Coupe_hero:crop-16x9?wid=1920&hei=1080" alt="McLaren 720S">
+                <div class="card-content">
+                    <h3 class="card-title">McLaren 720S</h3>
+                    <p class="card-details">V8, 710 cv, 0-100 km/h em 2.8s</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://cdn.autopapo.com.br/box/uploads/2024/07/03171049/bugatti-chiron-paito-motors-brasil.jpg" alt="Bugatti Chiron">
+                <div class="card-content">
+                    <h3 class="card-title">Bugatti Chiron</h3>
+                    <p class="card-details">W16, 1500 cv, máxima de 420 km/h</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://maserati.scene7.com/is/image/maserati/maserati/international/model-page/quattroporte/design/214300M-exterior%20(1).jpg?$1400x2000$&fit=constrain" alt="Maserati Quattroporte">
+                <div class="card-content">
+                    <h3 class="card-title">Maserati Quattroporte</h3>
+                    <p class="card-details">V8, 580 cv, luxo e esportividade</p>
+                </div>
+            </div>
+
+            <!-- Quarta Linha -->
+            <div class="card">
+                <img src="https://wallpapers.com/images/hd/mythos-black-audi-r8-1nr96pua2e00azpk.jpg" alt="Audi R8">
+                <div class="card-content">
+                    <h3 class="card-title">Audi R8</h3>
+                    <p class="card-details">V10, 602 cv, design icônico</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://vehicle-images.dealerinspire.com/d9d0-18003891/WBSAE0C09SCS40045/a0d4039ed9f5579cf1f6e6761f842505.jpg" alt="BMW M8">
+                <div class="card-content">
+                    <h3 class="card-title">BMW M8</h3>
+                    <p class="card-details">V8, 617 cv, conforto e velocidade</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://s3.ecompletocarros.dev/images/lojas/285/veiculos/207063/veiculoInfoVeiculoImagesMobile/vehicle_image_1724444704_d41d8cd98f00b204e9800998ecf8427e.jpeg" alt="Mercedes-AMG GT">
+                <div class="card-content">
+                    <h3 class="card-title">Mercedes-AMG GT</h3>
+                    <p class="card-details">V8, 523 cv, estilo e performance</p>
+                </div>
+            </div>
+
+            <!-- Quinta Linha -->
+            <div class="card">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAmI3ncKAtWaCqt2zyjpRt45nck_VrTdIR8_lpaaVea1lb76pjOxmMRipc_ixm4Tq7f6BerosVGyPsGTWDfetts3j_y9PrOcj-fqnZYXjSOJJ0Gie51LG3PhvOfyI3n5h6-xhlxRs8msmI/s2048/Tesla-Model-S-Plaid-2021+%25281%2529.jpg" alt="Tesla Model S Plaid">
+                <div class="card-content">
+                    <h3 class="card-title">Tesla Model S Plaid</h3>
+                    <p class="card-details">Elétrico, 1020 cv, 0-100 km/h em 2.1s</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://cdn-ds.com/blogs-media/sites/214/2023/09/12042443/2024-Lexus-LC-Inspiration-A_o.png" alt="Lexus LC500">
+                <div class="card-content">
+                    <h3 class="card-title">Lexus LC500</h3>
+                    <p class="card-details">V8, 471 cv, luxo e conforto</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://cdn.motor1.com/images/mgl/KqNVl/s3/2021-jaguar-f-type.jpg" alt="Jaguar F-Type">
+                <div class="card-content">
+                    <h3 class="card-title">Jaguar F-Type</h3>
+                    <p class="card-details">V8, 575 cv, elegância britânica</p>
+                </div>
+            </div>
         </div>
-                                                                             
-                            
-    </body>
+    </div>
 </html>
+</body>
