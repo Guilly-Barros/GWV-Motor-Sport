@@ -13,45 +13,56 @@
       <link rel="shortcut icon" href="logotrabalho.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="6-Login.css">
+    <link rel="stylesheet" href="navbar.css">
 </head>
 
 <body>
-<!--NAVBAR-->                                                        <!-- Inicio NavBar -->
-    <header class="menu">
-      <nav class="navbar navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="left-items" href="1-Inicio.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="left-items" href="2-Veiculos.html">Veículos</a>
-            </li>
-            <li class="nav-item">
-              <a class="left-items" href="3-Contato.html">Contato</a>
-            </li>
-          </ul>
-                                                                    <!-- Inicio da Logo Entre a  NavBar -->
-              <div class="logo">
-                <img src="logotrabalho.png" alt="Logo"
-              </div>
-                                                                    <!-- Final da Logo Entre a  NavBar -->
-            
-            <ul class="nav" style="float:right;">
-              <li class="nav-acess">
-                <a class="right-items" href="4-Sobre.html" >Sobre</a>
-              </li>
-              <li class="nav-acess">
-                  <a class="right-items" href="5-Cadastro.html">Cadastre-se</a>
-              </li>
-              <li class="nav-acess">
-                  <a class="right-items" href="6-Login.html">Login</a>
-              </li>
-            </ul>
+                                    <!-- Logo do Site -->
+                                    <header class="menu">
+                                      <div class="logo">
+                                        <img src="logotrabalho.png" alt="Logo" class="logo">
+                                      </div>
+                            <!-- List Bar -->
+      <nav class="menu-lateral">
+        <div class="btn-expandir">
+          <i class="bi bi-list" id="btn-exp"></i>
         </div>
+
+ 
+                            <!-- Icones e Texto da List Bar -->
+        <ul>
+          <li class="item-menu ativo"> 
+            <a href="1-Inicio.html">
+              <span class="icon"><i class="bi bi-house-door-fill"></i></span>
+              <span class="txt-link">Inicío</span>
+            </a>
+          </li>
+          <li class="item-menu"> 
+            <a href="2-Veiculos.html">
+              <span class="icon"><i class="bi bi-car-front-fill"></i></span>
+              <span class="txt-link">Veículos</span>
+            </a>
+          </li>
+          <li class="item-menu"> 
+            <a href="3-Contato.html">
+              <span class="icon"><i class="bi bi-chat-dots-fill"></i></span>
+              <span class="txt-link">Contato</span>
+            </a>
+          </li>
+          <li class="item-menu"> 
+            <a href="4-Sobre.html">
+              <span class="icon"><i class="bi bi-laptop"></i></span>
+              <span class="txt-link">Sobre</span>
+            </a>
+          </li>
+          <li class="item-menu"> 
+            <a href="6-Login.html">
+              <span class="icon"><i class="bi bi-box-arrow-in-right"></i></span>
+              <span class="txt-link">Login</span>
+            </a>
+          </li>
+        </ul>
       </nav>
-
-
 
   <!-- Login - SignUp -->
     <div class="container" id="container">
@@ -104,6 +115,7 @@
     </div>
 
     <script src="6-Login.js"></script>
+    <script src="navbar.js"></script>
 </body>
 
 </html>

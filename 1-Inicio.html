@@ -1,112 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>GWM MOTOR'S</title>
-
-      <!-- Link CSS -->
-      <link rel="stylesheet" href="1-Inicio.css">
-      <script defer src="app.js"></script>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
-      <link rel="shortcut icon" href="logotrabalho.png" type="image/x-icon">
-
-    </head>
-  <body>
-                                                                    <!-- Inicio NavBar -->
-    <header class="menu">
-      <nav class="navbar navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="left-items" href="1-Inicio.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="left-items" href="2-Veiculos.html">Veículos</a>
-            </li>
-            <li class="nav-item">
-              <a class="left-items" href="3-Contato.html">Contato</a>
-            </li>
-          </ul>
-                                                                    <!-- Inicio da Logo Entre a  NavBar -->
-              <div class="logo">
-                <img src="logotrabalho.png" alt="Logo"
-              </div>
-
-                                                                    <!-- Final da Logo Entre a  NavBar -->
-            
-            <ul class="nav" style="float:right;">
-              <li class="nav-acess">
-                <a class="right-items" href="4-Sobre.html" >Sobre</a>
-              </li>
-              <li class="nav-acess">
-                  <a class="right-items" href="5-Cadastro.html">Cadastre-se</a>
-              </li>
-              <li class="nav-acess">
-                  <a class="right-items" href="6-Login.html">Login</a>
-              </li>
-            </ul>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GWM MOTOR SPORT</title>
+    <link rel="stylesheet" href="1-Inicio.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="navbar.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+    <body>
+                                  <!-- Logo do Site -->
+      <header class="menu">
+      <div class="logo">
+        <img src="logotrabalho.png" alt="Logo" class="logo">
+      </div>
+                            <!-- List Bar -->
+      <nav class="menu-lateral">
+        <div class="btn-expandir">
+          <i class="bi bi-list" id="btn-exp"></i>
         </div>
+
+ 
+                            <!-- Icones e Texto da List Bar -->
+        <ul>
+          <li class="item-menu ativo"> 
+            <a href="1-Inicio.html">
+              <span class="icon"><i class="bi bi-house-door-fill"></i></span>
+              <span class="txt-link">Inicío</span>
+            </a>
+          </li>
+          <li class="item-menu"> 
+            <a href="2-Veiculos.html">
+              <span class="icon"><i class="bi bi-car-front-fill"></i></span>
+              <span class="txt-link">Veículos</span>
+            </a>
+          </li>
+          <li class="item-menu"> 
+            <a href="3-Contato.html">
+              <span class="icon"><i class="bi bi-chat-dots-fill"></i></span>
+              <span class="txt-link">Contato</span>
+            </a>
+          </li>
+          <li class="item-menu"> 
+            <a href="4-Sobre.html">
+              <span class="icon"><i class="bi bi-laptop"></i></span>
+              <span class="txt-link">Sobre</span>
+            </a>
+          </li>
+          <li class="item-menu"> 
+            <a href="6-Login.html">
+              <span class="icon"><i class="bi bi-box-arrow-in-right"></i></span>
+              <span class="txt-link">Login</span>
+            </a>
+          </li>
+        </ul>
       </nav>
-    </header>
-                                                                      <!-- Final da NavBar -->
-                 
 
-        <section class="hero">
-          <div class="overlay">
-              <h1>Bem-vindo à <br> GWM Motor Sport</h1>
-              <p>Excelência e Performance em Cada Detalhe</p>
-          </div>
-      </section>
-  
+      <div class="slider">
+        <div class="slides">
+          <!-- Botoes Radio -->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!-- Final Botões Radio -->
 
-      <section class="carros">
-        <div class="carro-destaque">
-            <img src="Porshe.jpeg" alt="Porsche Taycan GTS">
-            <div class="info">
-                <h2>Porsche Taycan GTS Elétrico</h2>
-                <p><span class="ano">2023</span> <span class="km">560 Km</span></p>
-                <p class="preco">R$789.900</p>
-            </div>
+          <!-- Slide Imagens -->
+           <div class="slide first">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTWdW_6QOfw_ud5bdv2lApRHvhA8TbSN34Qg&s" alt="Porsche">
+           </div>
+           <div class="slide">
+            <img src="https://img2.icarros.com/dbimg/imgadicionalnoticia/4/74799_1" alt="Ferrari">
+           </div>
+           <div class="slide ">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqt2SNosb-qSzMvz9GuTSJcdP_CYbJ4cviZA&s" alt="Lamborghini">
+           </div>
+           <div class="slide">
+            <img src="https://revistacarro.com.br/wp-content/uploads/2018/03/aston-martin-db11-1-capa.jpg" alt="Aston Martin">
+           </div>
+           <!-- Final Slide Imagens -->
+
+            <!-- Botões de Navegação -->
+             <div class="navigation-auto">
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+             </div>
         </div>
 
+        <div class="manual-navigation">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
 
-      <section class="about">
-          <h2>Sobre Nós</h2>
-          <p>Na GWM MOTOR SPORT, nossa paixão por carros esportivos vai além da velocidade e da potência — 
-            buscamos transformar os sonhos em realidade a mais de 10 anos. Nosso objetivo é oferecer aos amantes de carros uma experiência única, 
-            onde cada detalhe é pensado para atender aos desejos mais exigentes. Entendemos que para os nossos clientes, 
-            um carro esportivo não é apenas um meio de transporte, mas uma expressão de liberdade, estilo e emoção.</p>
+
+      <script src="1-Inicio.js"></script>
+      <script src="navbar.js"></script>
+                            <!-- Fim Ícones e Textos da List Bar -->
   
-
-      <section class="car-gallery">
-          <h2>Nosso Catálogo de Carros</h2>
-          <div class="gallery">
-              <div class="car">
-                  <img src="mustang_red.png" alt="Carro Esportivo 1">
-                  <p>Modelo XYZ - Velocidade e Potência</p>
-              </div>
-              <div class="car">
-                  <img src="mustang_red.png" alt="Carro Esportivo 2">
-                  <p>Modelo ABC - Elegância e Performance</p>
-              </div>
-              <div class="car">
-                  <img src="mustang_red.png" alt="Carro Esportivo 3">
-                  <p>Modelo RST - Design e Tecnologia</p>
-              </div>
-          </div>
-      </section>
-  
-      <footer>
-          <p>&copy; 2024 GWM MOTOR SPORT .Todos os direitos reservados.  Contato: (62)3216-2000</p>
-      </footer>
-
-
-
-    </section>                                  
-
-
-  </body>
+    </body>
 </html>
