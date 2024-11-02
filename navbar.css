@@ -20,6 +20,7 @@ nav.menu-lateral{
   left: 0; 
   overflow: hidden;
   transition: .5s;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
 }
 
 nav.menu-lateral.expandir{
