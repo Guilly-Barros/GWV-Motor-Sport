@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GWM MOTOR SPORT</title>
     <link rel="stylesheet" href="1-Inicio.css">
+    <link rel="stylesheet" href="whatsapp.css">
+    <link rel="stylesheet" href="Ajuda.css">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="navbar.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -20,8 +22,6 @@
           <div class="btn-expandir">
             <i class="bi bi-list" id="btn-exp"></i>
           </div>
-
- 
                             <!-- Icones e Texto da List Bar -->
           <ul>
             <li class="item-menu ativo"> 
@@ -56,6 +56,12 @@
             </li>
           </ul>
         </nav>
+
+        <h1>Bem Vindo</h1>
+        <h2>Nós somos a GWM Motor Sport</h2>
+        <p>Provavelmente se você acessou nosso site, esta buscando por algo fora dos padrões<br> 
+        Algo que te faça sentir a adrenalina correndo em suas veias, e é exatamente isso que nós oferecemos.
+        </p>
 
         <div class="slider">
           <div class="slides">
@@ -98,7 +104,35 @@
             </div>
         </div>
 
+        <p1>I really holp that you find your car in the site<br> What do you think to take a look on car's</p1>
 
+             <!-- Botão de WhatsApp -->
+        <a href="https://wa.me/62985385544" class="whatsapp-chat" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp Chat">
+        </a>
+
+              <!-- Botão para abrir a janela de ajuda -->
+        <div id="help-button" onclick="toggleHelp()">
+          Ajuda
+        </div>
+
+              <!-- Janela de ajuda oculta inicialmente -->
+        <div id="help-popup">
+          <div class="help-header">
+            <span>Assistência ao Cliente</span>
+            <span onclick="toggleHelp()" class="close-button">&times;</span>
+          </div>
+          <div class="help-content">
+            <p>Olá! Como posso te ajudar?</p>
+            <p>Entre em contato conosco ou deixe sua mensagem.</p>
+          </div>
+        </div>
+
+
+
+        <a href="2-Veiculos.html" class="ver-carros">Veículos</a>
+
+            <script src="help.js"></script>
             <script src="1-Inicio.js"></script>
             <script src="navbar.js"></script>
                             <!-- Fim Ícones e Textos da List Bar -->

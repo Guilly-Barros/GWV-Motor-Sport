@@ -1,0 +1,51 @@
+/* Estilo para o botão de ajuda */
+#help-button {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: black;
+	color:white;
+	padding: 10px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para a janela de ajuda */
+#help-popup {
+	position: fixed;
+	bottom: 70px; /* Distância do botão de ajuda */
+	right: 20px;
+	width: 300px;
+	background-color: #ccc;
+	border: 1px solid black;
+	border-radius: 10px;
+	display: none; /* Oculto inicialmente */
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+	z-index: 1000;
+}
+
+/* Cabeçalho da janela de ajuda */
+.help-header {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+/* Botão de fechar no cabeçalho */
+.close-button {
+	cursor: pointer;
+	font-size: 18px;
+	color: tomato;
+}
+
+/* Conteúdo da janela de ajuda */
+.help-content {
+	padding: 15px;
+}
