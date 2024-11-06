@@ -86,7 +86,7 @@ body{
 }
 
 .navigation-auto div{
-	border: 2px solid yellow;
+	border: 2px solid black;
 	padding: 5px;
 	border-radius: 10px;
 	cursor: pointer;
