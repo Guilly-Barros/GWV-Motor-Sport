@@ -52,7 +52,7 @@ ul li.item-menu{
 }
 
 ul li.ativo{
-    background-color: red;
+    /* background-color: red; */
 }
 ul li.item-menu a{
     color: white;
