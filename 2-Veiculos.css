@@ -164,7 +164,7 @@
       }
 
       .card-content{
-        padding: 15px;
+        padding: 20px;
       }
 
       .card-title{
@@ -175,6 +175,7 @@
       }
 
       .card-details {
-        font-size: 0.9em;
-        color: #cccccc;
+        font-size: 1.0em;
+        color: #d7d2d2;
+        padding: 5px;
       }
