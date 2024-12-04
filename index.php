@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/whatsapp.css">
     <link rel="stylesheet" href="./css/ajuda.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="shortcut icon" href="./img/logotrabalho.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
     <body>
