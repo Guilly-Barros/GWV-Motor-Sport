@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  /* background-color: gray; */
+  background-image: url(img/mustang-original-white.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo img {
+  height: 120px;
+  width: 350px;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.contact-section {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: #333;
+  text-align: center;
+}
+
+.contact-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-container p {
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.social-icons a:hover {
+  color: #f57c00;
+}

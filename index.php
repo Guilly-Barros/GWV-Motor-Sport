@@ -4,56 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GWM MOTOR SPORT</title>
-    <link rel="stylesheet" href="1-Inicio.css">
-    <link rel="stylesheet" href="whatsapp.css">
-    <link rel="stylesheet" href="Ajuda.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="navbar.js">
+    <link rel="stylesheet" href="./css/inicio.css">
+    <link rel="stylesheet" href="./css/whatsapp.css">
+    <link rel="stylesheet" href="./css/ajuda.css">
+    <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
     <body>
-                                  <!-- Logo do Site -->
+      <!-- Logo do Site -->
       <header class="menu">
         <div class="logo">
-          <img src="logotrabalho.png" alt="Logo" class="logo">
+          <img src="./img/logotrabalho.png" alt="Logo" class="logo">
         </div>
-                            <!-- List Bar -->
-        <nav class="menu-lateral">
-          <div class="btn-expandir">
-            <i class="bi bi-list" id="btn-exp"></i>
-          </div>
-                            <!-- Icones e Texto da List Bar -->
-          <ul>
-            <li class="item-menu ativo"> 
-              <a href="1-Inicio.html">
-                <span class="icon"><i class="bi bi-house-door-fill"></i></span>
-                <span class="txt-link">Inicío</span>
-              </a>
-            </li>
-            <li class="item-menu"> 
-              <a href="2-Veiculos.html">
-                <span class="icon"><i class="bi bi-car-front-fill"></i></span>
-                <span class="txt-link">Veículos</span>
-              </a>
-            </li>
-            <li class="item-menu"> 
-              <a href="3-Contato.html">
-                <span class="icon"><i class="bi bi-chat-dots-fill"></i></span>
-                <span class="txt-link">Contato</span>
-              </a>
-            </li>
-            <li class="item-menu"> 
-              <a href="6-Login.html">
-                <span class="icon"><i class="bi bi-box-arrow-in-right"></i></span>
-                <span class="txt-link">Login</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
+
+        <?php
+        include('menu.php');
+        ?>
 
         <h1>Bem Vindo</h1>
         <h2>Nós somos a GWM Motor Sport</h2>
-        <p>Provavelmente se você acessou nosso site, esta buscando por algo fora dos padrões<br> 
+        <p>Provavelmente se você acessou nosso site, esta buscando por algo fora dos padrões<br>
         Algo que te faça sentir a adrenalina correndo em suas veias, e é exatamente isso que nós oferecemos.
         </p>
 
@@ -79,9 +49,9 @@
             <div class="slide">
               <img src="https://revistacarro.com.br/wp-content/uploads/2018/03/aston-martin-db11-1-capa.jpg" alt="Aston Martin">
             </div>
-                    <!-- Final Slide Imagens -->
+              <!-- Final Slide Imagens -->
 
-                    <!-- Botões de Navegação -->
+              <!-- Botões de Navegação -->
               <div class="navigation-auto">
                 <div class="auto-btn1"></div>
                 <div class="auto-btn2"></div>
@@ -101,7 +71,7 @@
 
              <!-- Botão de WhatsApp -->
         <a href="https://wa.me/62985385544" class="whatsapp-chat" target="_blank">
-          <img src="zaplogo.png" alt="WhatsApp Chat">
+          <img src="./img/zaplogo.png" alt="WhatsApp Chat">
         </a>
 
               <!-- Botão para abrir a janela de ajuda -->
@@ -123,12 +93,12 @@
 
 
 
-        <a href="2-Veiculos.html" class="ver-carros">Veículos</a>
+        <a href="./veiculos.php" class="ver-carros">Veículos</a>
 
-            <script src="help.js"></script>
-            <script src="1-Inicio.js"></script>
-            <script src="navbar.js"></script>
+            <script src="./js/help.js"></script>
+            <script src="./js/inicio.js"></script>
+            <script src="./js/navbar.js"></script>
                             <!-- Fim Ícones e Textos da List Bar -->
-      </header> 
+      </header>
     </body>
 </html>

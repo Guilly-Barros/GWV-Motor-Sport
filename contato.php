@@ -6,51 +6,22 @@
       <title>GWM MOTOR'S</title>
 
       <!-- Link CSS -->
-       <link rel="stylesheet" href="3-Contato.css">
-       <link rel="stylesheet" href="whatsapp.css">
-       <link rel="stylesheet" href="Ajuda.css">
-      <link rel="stylesheet" href="navbar.css">
+       <link rel="stylesheet" href="./css/contato.css">
+       <link rel="stylesheet" href="./css/whatsapp.css">
+       <link rel="stylesheet" href="./css/ajuda.css">
+      <link rel="stylesheet" href="./css/navbar.css">
       <!--<link rel="stylesheet" href="navbar.js">-->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-      <link rel="shortcut icon" href="logotrabalho.png" type="image/x-icon">
+      <link rel="shortcut icon" href="./img/logotrabalho.png" type="image/x-icon">
   </head>
     <body>
                                                                     <!-- Inicio NavBar -->
       <header class="menu">
-        <nav class="menu-lateral">
-          <div class="btn-expandir">
-            <i class="bi bi-list" id="btn-exp"></i>
-          </div>
-                          <!-- Icones e Texto da List Bar -->
-          <ul>
-            <li class="item-menu ativo"> 
-              <a href="1-Inicio.html">
-                <span class="icon"><i class="bi bi-house-door-fill"></i></span>
-                <span class="txt-link">Inicío</span>
-              </a>
-            </li>
-            <li class="item-menu"> 
-              <a href="2-Veiculos.html">
-                <span class="icon"><i class="bi bi-car-front-fill"></i></span>
-                <span class="txt-link">Veículos</span>
-              </a>
-            </li>
-            <li class="item-menu"> 
-              <a href="3-Contato.html">
-                <span class="icon"><i class="bi bi-chat-dots-fill"></i></span>
-                <span class="txt-link">Contato</span>
-              </a>
-            </li>
-            <li class="item-menu"> 
-              <a href="6-Login.html">
-                <span class="icon"><i class="bi bi-box-arrow-in-right"></i></span>
-                <span class="txt-link">Login</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <?php
+        include('menu.php');
+        ?>
       </header>
-      
+
       <section class="contact-section">
         <div class="contact-container">
             <h1>Entre em Contato</h1>
@@ -80,7 +51,7 @@
             </div>
           </div>
         </div>
-          <script src="navbar.js" ></script>
+          <script src="./js/navbar.js" ></script>
       </section>
     </body>
 </html>
